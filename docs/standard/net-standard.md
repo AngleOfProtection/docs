@@ -113,7 +113,7 @@ If you only need to consume .NET Standard 2.0 libraries in your projects, you ca
 
 ## Comparison to Portable Class Libraries
 
-.NET Standard is the replacement for [Portable Class Libraries (PCL)](./cross-platform/cross-platform-development-with-the-portable-class-library.md). The .NET Standard improves on the experience of creating portable libraries by curating a standard BCL and establishing greater uniformity across .NET implementations as a result. A library that targets .NET Standard is a PCL or a ".NET Standard-based PCL". Existing PCLs are "profile-based PCLs".
+.NET Standard is the replacement for [Portable Class Libraries (PCL)](./cross-platform/cross-platform-development-with-the-portable-class-library.md). The .NET Standard improves on the experience of creating portable libraries by creating a standard BCL and establishing greater uniformity across .NET implementations as a result. A library that targets .NET Standard is a PCL or a ".NET Standard-based PCL". Existing PCLs are "profile-based PCLs".
 
 .NET Standard and PCL profiles were created for similar purposes but also differ in key ways.
 
@@ -123,7 +123,7 @@ Similarities:
 
 Differences:
 
-- .NET Standard is a curated set of APIs, while PCL profiles are defined by intersections of existing platforms.
+- .NET Standard is a created set of APIs, while PCL profiles are defined by intersections of existing platforms.
 - .NET Standard linearly versions, while PCL profiles do not.
 - PCL profiles represents Microsoft platforms while the .NET Standard is platform-agnostic.
 
